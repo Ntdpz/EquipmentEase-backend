@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "configure": "npm set production false && npm set -g production false && npm --no-git-tag-version version 1.0.0 -- --omit=dev"
+    "configure": "npm version 1.0.0 --no-git-tag-version -- --omit=dev"
   },
   "keywords": [],
   "author": "",
